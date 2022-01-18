@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PCustRegistration"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/splash">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/textsplash"
+        android:id="@+id/imageView3"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-50dp"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/custname"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_corners"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/custemail"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text=""
+                android:background="@drawable/rounded_corners"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/custaddress"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text=""
+                android:background="@drawable/rounded_corners"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIC Nummber">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:id="@+id/custnic"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text=""
+                android:background="@drawable/rounded_corners"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:id="@+id/custpassword"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text=""
+                android:background="@drawable/rounded_corners"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Customer Register"-->
+<!--        android:textSize="35dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tvCustomerLink"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_below="@+id/tvCustomerLink"-->
+<!--        android:id="@+id/custname"-->
+<!--        android:hint="Customer Name"-->
+<!--        android:textSize="25dp" />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_below="@+id/txtCustName"-->
+<!--        android:id="@+id/custemail"-->
+<!--        android:hint="Email"-->
+<!--        android:textSize="25dp"/>-->
+
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_below="@+id/txtCustEmail"-->
+<!--        android:id="@+id/custaddress"-->
+<!--        android:hint="Address"-->
+<!--        android:textSize="25dp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_below="@+id/txtCustomerEmail"-->
+<!--        android:id="@+id/custnic"-->
+<!--        android:hint="Customer NIC"-->
+<!--        android:textSize="25dp"/>-->
+
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_below="@+id/txtCustomerPhone"-->
+<!--        android:id="@+id/custpassword"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textSize="25dp"/>-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CustomerRegister"
+        android:layout_marginTop="15dp"
+        android:text="Register"
+        android:layout_below="@+id/txtCustomerPassword"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/rounded_corners"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer? SignUp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvCustomerRegister"
+        android:layout_below="@+id/CustRegister"
+        android:gravity="center"/>
+
+
+</LinearLayout>
